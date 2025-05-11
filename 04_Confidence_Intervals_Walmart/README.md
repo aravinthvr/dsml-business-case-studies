@@ -79,9 +79,9 @@ The dataset contains transaction-level data from Walmart's Black Friday sale.
 - **Age Groups**:
   - Customers aged **51+ years** have the highest average spend per transaction.
   - The **26–35 age group** contributes the **most to total sales volume**.
-  - Similar spending patterns observed within age clusters:
-    - Group 1: 18–25, 26–35, 36–50
-    - Group 2: 0–17, 51+
+  - Similar spending patterns observed within age clusters (based on CI):
+    - Group 1: 18–25, 26–35, 36–50 (showed close overlap in CIs)
+    - Group 2: 0–17, 51+ (showed overlap in CIs, distinct from Group 1)
 
 ---
 
@@ -110,4 +110,3 @@ The dataset contains transaction-level data from Walmart's Black Friday sale.
 All analysis and business insights are available in the notebook.
 
 > For detailed charts, data wrangling, and interpretation, please refer to the full [Jupyter Notebook](./Walmart_Confidence_CLT.ipynb).
-
